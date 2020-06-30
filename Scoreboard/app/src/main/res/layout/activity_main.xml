@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.9">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="495dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:gravity="center"
+                android:text="TEAM A"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#2196F3"
+                android:text="+1 POINT"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="+2 POINT"
+                android:background="#2196f3"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#2196f3"
+                android:text="+3 POINT"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="490dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="TEAM B"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#2196f3"
+                android:text="+1 POINT"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#2196f3"
+
+                android:text="+2 POINT"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#2196f3"
+                android:text="+3 POINT"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="#0097A7"
+        android:gravity="center"
+        android:text="RESET"
+        android:textSize="40sp"
+        />
+</LinearLayout>

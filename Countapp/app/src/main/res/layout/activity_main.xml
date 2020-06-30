@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#151212"
+        android:textSize="30sp"
+        android:id="@+id/textcount"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="75sp"
+            android:background="#f34456"
+
+            android:text="+" />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="75sp"
+            android:background="#f67865"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="75sp"
+            android:background="#f23469"
+            android:text="reset" />
+
+        <Button
+            android:id="@+id/toast"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="display"
+            android:background="#E91E1E"
+            android:text="toast" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
