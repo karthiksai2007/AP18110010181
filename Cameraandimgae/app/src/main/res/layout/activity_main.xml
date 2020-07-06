@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0708"
+    tools:context="com.example.cameraandimgae.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:text="Camera"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/camera"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="Gallery"
+            android:textColor="#0B0606"
+            android:textSize="25dp"
+            android:id="@+id/gallery"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="411dp"
+        android:layout_height="552dp"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>
